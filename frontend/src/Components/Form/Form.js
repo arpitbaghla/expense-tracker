@@ -50,7 +50,7 @@ function Form() {
             </div>
             <div className="input-control">
                 <input value={amount}
-                    type="text"
+                    type="number"
                     name={'amount'}
                     placeholder={'Income Amount'}
                     onChange={handleInput('amount')}
